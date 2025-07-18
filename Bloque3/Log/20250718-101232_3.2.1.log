@@ -1,0 +1,5 @@
+[] === Remediación 3.2.1: Deshabilitar dccp ===
+[] Módulo dccp no está cargado
+[] Actualizando /etc/modprobe.d/dccp.conf
+[] Módulo dccp.ko presente en: /lib/modules/6.1.0-37-cloud-amd64/kernel/net/dccp/dccp.ko
+[] == Remediación 3.2.1 completada ==

@@ -1,0 +1,6 @@
+[2025-07-18 10:12:38] Iniciando 6.2.2.2.sh – 6.2.2.2 (Ensure audit logs are not automatically deleted)
+[2025-07-18 10:12:38] Backup creado: /etc/audit/auditd.conf.bak.*
+[2025-07-18 10:12:38] Parámetro max_log_file_action actualizado a keep_logs
+[2025-07-18 10:12:38] Reiniciando servicio auditd ...
+[2025-07-18 10:12:38] [OK] auditd reiniciado
+[2025-07-18 10:12:38] [SUCCESS] 6.2.2.2 Aplicado correctamente

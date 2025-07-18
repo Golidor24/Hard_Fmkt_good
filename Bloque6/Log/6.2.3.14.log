@@ -1,0 +1,4 @@
+[2025-07-18 10:12:38] Run 6.2.3.14.sh – 6.2.3.14
+[2025-07-18 10:12:38] Regla añadida: -w /etc/apparmor/ -p wa -k MAC-policy
+[2025-07-18 10:12:38] Regla añadida: -w /etc/apparmor.d/ -p wa -k MAC-policy
+[2025-07-18 10:12:38] [SUCCESS] 6.2.3.14 aplicado

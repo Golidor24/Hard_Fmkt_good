@@ -1,0 +1,13 @@
+[2025-07-18 10:11:13] === Remediación 5.2.4: Eliminar NOPASSWD (excluyendo root, admin, nessus) ===
+[2025-07-18 10:11:13] No se encontró NOPASSWD en /etc/sudoers
+[2025-07-18 10:11:13] No se encontró NOPASSWD en /etc/sudoers.d/README
+[2025-07-18 10:11:13] [DRY-RUN] cp --preserve=mode,ownership,timestamps '/etc/sudoers.d/nessusauth' '/etc/hardening_backups/nessusauth.20250718-101113'
+[2025-07-18 10:11:13] [DRY-RUN] awk -v tag='# DISABLED_BY_HARDENING' -v today="2025-07-18" -v exclude="^[[:space:]]*(root|admin|nessus)[[:space:]].*NOPASSWD" '
+        /home/ckittler/Hardening_Fmkt/Bloque5//5.2.4.sh ~ exclude {print; next}
+        /home/ckittler/Hardening_Fmkt/Bloque5//5.2.4.sh ~ /NOPASSWD/ && /home/ckittler/Hardening_Fmkt/Bloque5//5.2.4.sh !~ tag {print tag, today, /home/ckittler/Hardening_Fmkt/Bloque5//5.2.4.sh; next}
+        {print}
+      ' "/etc/sudoers.d/nessusauth" > "/tmp/tmp.JD9IuU5aoi"
+[2025-07-18 10:11:13] [DRY-RUN] visudo -cf "/tmp/tmp.JD9IuU5aoi"
+[2025-07-18 10:11:13] [DRY-RUN] Cambios no aplicados en /etc/sudoers.d/nessusauth
+[2025-07-18 10:11:13] Solo se encontraron entradas permitidas (root/admin/nessus) en /etc/sudoers.d/90-cloud-init-users
+[2025-07-18 10:11:13] == Remediación 5.2.4 completada ==

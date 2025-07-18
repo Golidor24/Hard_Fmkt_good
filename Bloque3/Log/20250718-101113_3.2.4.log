@@ -1,0 +1,6 @@
+[2025-07-18 10:11:13] === Remediación 3.2.4: Deshabilitar sctp ===
+[2025-07-18 10:11:13] Módulo sctp no está cargado
+[2025-07-18 10:11:13] Actualizando /etc/modprobe.d/sctp.conf
+[2025-07-18 10:11:13] [DRY-RUN] Escribiría líneas install/blacklist en /etc/modprobe.d/sctp.conf
+[2025-07-18 10:11:13] Módulo sctp.ko presente en: /lib/modules/6.1.0-37-cloud-amd64/kernel/net/sctp/sctp.ko
+[2025-07-18 10:11:13] == Remediación 3.2.4 completada ==

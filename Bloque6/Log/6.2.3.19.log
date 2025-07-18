@@ -1,0 +1,5 @@
+[2025-07-18 10:12:38] Run 6.2.3.19.sh – 6.2.3.19
+[2025-07-18 10:12:38] Regla añadida: -a always,exit -F arch=b64 -S init_module,finit_module,delete_module,create_module,query_module -F auid>=1000 -F auid!=unset -k kernel_modules
+[2025-07-18 10:12:38] Regla añadida: -a always,exit -F arch=b32 -S init_module,finit_module,delete_module,create_module,query_module -F auid>=1000 -F auid!=unset -k kernel_modules
+[2025-07-18 10:12:38] Regla añadida: -a always,exit -F path=/usr/bin/kmod -F perm=x -F auid>=1000 -F auid!=unset -k kernel_modules
+[2025-07-18 10:12:38] [SUCCESS] 6.2.3.19 aplicado

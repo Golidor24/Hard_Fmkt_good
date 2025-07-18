@@ -1,0 +1,13 @@
+[2025-07-18 10:11:13] === Remediación 5.4.1.2 iniciada (dry-run=1) ===
+[2025-07-18 10:11:13] → Revisando /etc/login.defs
+[2025-07-18 10:11:13] [DRY-RUN] cp --preserve=mode,ownership,timestamps '/etc/login.defs' '/var/backups/login_defs/login.defs.20250718-101113'
+[2025-07-18 10:11:13] [DRY-RUN] sed -E 's/^\s*PASS_MIN_DAYS\s+0\b/PASS_MIN_DAYS\t1/' -i '/etc/login.defs'
+[2025-07-18 10:11:13]   • PASS_MIN_DAYS cambiado a 1
+[2025-07-18 10:11:13] → Ajustando mindays de usuarios
+[2025-07-18 10:11:13] [DRY-RUN] chage --mindays 1 'foliva'
+[2025-07-18 10:11:13] [DRY-RUN] chage --mindays 1 'mcaceres'
+[2025-07-18 10:11:13] [DRY-RUN] chage --mindays 1 'nessusauth'
+[2025-07-18 10:11:13] [DRY-RUN] chage --mindays 1 'lbarrios'
+[2025-07-18 10:11:13] [DRY-RUN] chage --mindays 1 'mvazquez'
+[2025-07-18 10:11:13] [DRY-RUN] chage --mindays 1 'ckittler'
+[2025-07-18 10:11:13] === Remediación 5.4.1.2 completada ===

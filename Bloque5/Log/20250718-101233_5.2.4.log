@@ -1,0 +1,9 @@
+[2025-07-18 10:12:33] === Remediación 5.2.4: Eliminar NOPASSWD (excluyendo root, admin, nessus) ===
+[2025-07-18 10:12:33] No se encontró NOPASSWD en /etc/sudoers
+[2025-07-18 10:12:33] No se encontró NOPASSWD en /etc/sudoers.d/README
+[2025-07-18 10:12:33] [EXEC]    cp --preserve=mode,ownership,timestamps '/etc/sudoers.d/nessusauth' '/etc/hardening_backups/nessusauth.20250718-101233'
+[2025-07-18 10:12:33] [EXEC]    awk -v tag='# DISABLED_BY_HARDENING' -v today="2025-07-18" -v exclude="^[[:space:]]*(root|admin|nessus)[[:space:]].*NOPASSWD" '
+        /home/ckittler/Hardening_Fmkt/Bloque5//5.2.4.sh ~ exclude {print; next}
+        /home/ckittler/Hardening_Fmkt/Bloque5//5.2.4.sh ~ /NOPASSWD/ && /home/ckittler/Hardening_Fmkt/Bloque5//5.2.4.sh !~ tag {print tag, today, /home/ckittler/Hardening_Fmkt/Bloque5//5.2.4.sh; next}
+        {print}
+      ' "/etc/sudoers.d/nessusauth" > "/tmp/tmp.5bKHk1VAh0"

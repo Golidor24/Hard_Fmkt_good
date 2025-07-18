@@ -1,0 +1,6 @@
+[] === Remediación 3.2.2: Deshabilitar tipc ===
+[] Módulo tipc no está cargado
+[] Actualizando /etc/modprobe.d/tipc.conf
+[] [DRY-RUN] Escribiría líneas install/blacklist en /etc/modprobe.d/tipc.conf
+[] Módulo tipc.ko presente en: /lib/modules/6.1.0-37-cloud-amd64/kernel/net/tipc/tipc.ko
+[] == Remediación 3.2.2 completada ==

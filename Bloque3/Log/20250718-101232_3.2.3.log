@@ -1,0 +1,5 @@
+[] === Remediación 3.2.3: Deshabilitar rds ===
+[] Módulo rds no está cargado
+[] Actualizando /etc/modprobe.d/rds.conf
+[] Módulo rds.ko presente en: /lib/modules/6.1.0-37-cloud-amd64/kernel/net/rds/rds.ko
+[] == Remediación 3.2.3 completada ==

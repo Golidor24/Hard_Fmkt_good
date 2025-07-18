@@ -1,0 +1,4 @@
+[2025-07-18 10:12:37] Backup creado: /etc/default/grub.bak.1752844357
+[2025-07-18 10:12:37] Parámetro audit_backlog_limit actualizado a 8192
+[2025-07-18 10:12:37] Ejecutando update-grub ...
+[2025-07-18 10:12:38] [SUCCESS] 6.2.1.4 aplicado correctamente (requiere reinicio para tomar efecto)

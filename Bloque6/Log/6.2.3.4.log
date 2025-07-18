@@ -1,0 +1,7 @@
+[2025-07-18 10:12:39] Run 6.2.3.4.sh
+[2025-07-18 10:12:39] Añadida regla: -a always,exit -F arch=b64 -S adjtimex,settimeofday -k time-change
+[2025-07-18 10:12:39] Añadida regla: -a always,exit -F arch=b32 -S adjtimex,settimeofday -k time-change
+[2025-07-18 10:12:39] Añadida regla: -a always,exit -F arch=b64 -S clock_settime -F a0=0x0 -k time-change
+[2025-07-18 10:12:39] Añadida regla: -a always,exit -F arch=b32 -S clock_settime -F a0=0x0 -k time-change
+[2025-07-18 10:12:39] Añadida regla: -w /etc/localtime -p wa -k time-change
+[2025-07-18 10:12:39] [SUCCESS] 6.2.3.4 aplicado

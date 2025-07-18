@@ -1,0 +1,10 @@
+[2025-07-18 10:12:39] Running 6.2.3.5.sh – 6.2.3.5
+[2025-07-18 10:12:39] Añadida regla: -a always,exit -F arch=b64 -S sethostname,setdomainname -k system-locale
+[2025-07-18 10:12:39] Añadida regla: -a always,exit -F arch=b32 -S sethostname,setdomainname -k system-locale
+[2025-07-18 10:12:39] Añadida regla: -w /etc/issue -p wa -k system-locale
+[2025-07-18 10:12:39] Añadida regla: -w /etc/issue.net -p wa -k system-locale
+[2025-07-18 10:12:39] Añadida regla: -w /etc/hosts -p wa -k system-locale
+[2025-07-18 10:12:39] Añadida regla: -w /etc/networks -p wa -k system-locale
+[2025-07-18 10:12:39] Añadida regla: -w /etc/network/ -p wa -k system-locale
+[2025-07-18 10:12:39] Añadida regla: -w /etc/netplan/ -p wa -k system-locale
+[2025-07-18 10:12:39] [SUCCESS] 6.2.3.5 aplicado

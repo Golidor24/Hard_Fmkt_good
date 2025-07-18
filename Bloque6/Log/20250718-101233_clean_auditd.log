@@ -1,0 +1,15 @@
+[2025-07-18 10:12:33] === Inicio del script de limpieza y deshabilitación de Auditd ===
+[2025-07-18 10:12:33] → Deteniendo el servicio auditd...
+[2025-07-18 10:12:33] [OK] Servicio auditd detenido.
+[2025-07-18 10:12:33] → Deshabilitando el servicio auditd para que no se inicie en el arranque...
+[2025-07-18 10:12:33] [OK] Servicio auditd deshabilitado.
+[2025-07-18 10:12:33] → Eliminando todas las reglas de auditoría cargadas del kernel con 'auditctl -D'...
+[2025-07-18 10:12:33] [OK] Reglas de auditoría eliminadas del kernel.
+[2025-07-18 10:12:33] → Borrando el archivo de reglas compilado: /etc/audit/audit.rules
+[2025-07-18 10:12:33] [OK] Archivo /etc/audit/audit.rules eliminado.
+[2025-07-18 10:12:33] → Borrando todos los archivos de reglas personalizados en /etc/audit/rules.d/ (*.rules)...
+[2025-07-18 10:12:33] [DEL] Eliminando /etc/audit/rules.d/audit.rules
+[2025-07-18 10:12:33] [OK] Todos los archivos .rules en /etc/audit/rules.d/ eliminados.
+[2025-07-18 10:12:33] === Limpieza y deshabilitación de Auditd completada. ===
+[2025-07-18 10:12:33] Para asegurar que todas las reglas estén completamente purgadas del kernel (especialmente si el modo inmutable estaba activo), se recomienda un REINICIO COMPLETO del sistema.
+[2025-07-18 10:12:33] Ejecute: sudo reboot

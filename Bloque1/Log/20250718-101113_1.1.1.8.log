@@ -1,0 +1,6 @@
+[] === Remediación 1.1.1.8: Deshabilitar udf ===
+[] Módulo udf no está cargado
+[] Actualizando /etc/modprobe.d/udf.conf
+[] [DRY-RUN] Escribiría líneas install/blacklist en /etc/modprobe.d/udf.conf
+[] Módulo udf.ko presente en: /lib/modules/6.1.0-37-cloud-amd64/kernel/fs/udf/udf.ko
+[] == Remediación 1.1.1.8 completada ==

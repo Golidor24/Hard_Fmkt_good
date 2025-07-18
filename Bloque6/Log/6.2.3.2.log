@@ -1,0 +1,4 @@
+[2025-07-18 10:12:39] Ejecutando 6.2.3.2.sh – 6.2.3.2
+[2025-07-18 10:12:39] Regla añadida: -a always,exit -F arch=b64 -C euid!=uid -F auid!=unset -S execve -k user_emulation
+[2025-07-18 10:12:39] Regla añadida: -a always,exit -F arch=b32 -C euid!=uid -F auid!=unset -S execve -k user_emulation
+[2025-07-18 10:12:39] [SUCCESS] 6.2.3.2 aplicado

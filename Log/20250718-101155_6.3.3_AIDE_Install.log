@@ -1,0 +1,4 @@
+[2025-07-18 10:11:55] === Remediación 6.3.3_AIDE_Install: Verificar si AIDE está instalado ===
+[2025-07-18 10:11:55] → AIDE no está instalado. Procediendo a instalar...
+[2025-07-18 10:12:17] AIDE fue instalado correctamente.
+[2025-07-18 10:12:17] == Remediación 6.3.3_AIDE_Install completada ==

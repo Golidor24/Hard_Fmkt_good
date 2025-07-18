@@ -1,0 +1,5 @@
+[2025-07-18 10:12:32] === Remediación 1.1.1.6: Deshabilitar overlay/overlayfs ===
+[2025-07-18 10:12:32] Módulo overlay no está cargado
+[2025-07-18 10:12:32] Actualizando /etc/modprobe.d/overlay.conf
+[2025-07-18 10:12:32] Módulo overlay.ko presente en: /lib/modules/6.1.0-37-cloud-amd64/kernel/fs/overlayfs/overlay.ko
+[2025-07-18 10:12:32] == Remediación 1.1.1.6 completada ==

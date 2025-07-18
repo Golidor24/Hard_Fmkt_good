@@ -1,0 +1,7 @@
+[2025-07-18 10:12:38] Ejecutando 6.2.2.4.sh – 6.2.2.4
+[2025-07-18 10:12:38] Backup creado de auditd.conf
+[2025-07-18 10:12:38] Actualizado space_left_action a email
+[2025-07-18 10:12:38] Actualizado admin_space_left_action a single
+[2025-07-18 10:12:38] Reiniciando auditd ...
+[2025-07-18 10:12:38] [OK] auditd reiniciado
+[2025-07-18 10:12:38] [SUCCESS] 6.2.2.4 aplicado

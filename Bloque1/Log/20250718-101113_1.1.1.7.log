@@ -1,0 +1,6 @@
+[2025-07-18 10:11:13] === Remediación 1.1.1.7: Deshabilitar squashfs ===
+[2025-07-18 10:11:13] Módulo squashfs no está cargado
+[2025-07-18 10:11:13] Actualizando /etc/modprobe.d/squashfs.conf
+[2025-07-18 10:11:13] [DRY-RUN] Escribiría líneas install/blacklist en /etc/modprobe.d/squashfs.conf
+[2025-07-18 10:11:13] Módulo squashfs.ko presente en: /lib/modules/6.1.0-37-cloud-amd64/kernel/fs/squashfs/squashfs.ko
+[2025-07-18 10:11:13] == Remediación 1.1.1.7 completada ==

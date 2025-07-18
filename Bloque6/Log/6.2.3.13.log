@@ -1,0 +1,4 @@
+[2025-07-18 10:12:38] Run 6.2.3.13.sh – 6.2.3.13
+[2025-07-18 10:12:38] Regla añadida: -a always,exit -F arch=b64 -S rename,unlink,unlinkat,renameat -F auid>=1000 -F auid!=unset -k delete
+[2025-07-18 10:12:38] Regla añadida: -a always,exit -F arch=b32 -S rename,unlink,unlinkat,renameat -F auid>=1000 -F auid!=unset -k delete
+[2025-07-18 10:12:38] [SUCCESS] 6.2.3.13 aplicado

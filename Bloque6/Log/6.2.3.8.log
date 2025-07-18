@@ -1,0 +1,10 @@
+[2025-07-18 10:12:55] Run 6.2.3.8.sh – 6.2.3.8
+[2025-07-18 10:12:55] Añadida regla: -w /etc/group -p wa -k identity
+[2025-07-18 10:12:55] Añadida regla: -w /etc/passwd -p wa -k identity
+[2025-07-18 10:12:55] Añadida regla: -w /etc/gshadow -p wa -k identity
+[2025-07-18 10:12:55] Añadida regla: -w /etc/shadow -p wa -k identity
+[2025-07-18 10:12:55] Añadida regla: -w /etc/security/opasswd -p wa -k identity
+[2025-07-18 10:12:55] Añadida regla: -w /etc/nsswitch.conf -p wa -k identity
+[2025-07-18 10:12:55] Añadida regla: -w /etc/pam.conf -p wa -k identity
+[2025-07-18 10:12:55] Añadida regla: -w /etc/pam.d -p wa -k identity
+[2025-07-18 10:12:55] [SUCCESS] 6.2.3.8 aplicado

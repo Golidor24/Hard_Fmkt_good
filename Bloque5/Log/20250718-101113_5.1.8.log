@@ -1,0 +1,6 @@
+[2025-07-18 10:11:13] === Remediación 5.1.8: Establecer DisableForwarding yes ===
+[2025-07-18 10:11:13] [DRY-RUN] Crearía backup en /etc/ssh/hardening_backups/sshd_config.20250718-101113
+[2025-07-18 10:11:13] [DRY-RUN] cat "/etc/ssh/sshd_config" > "/tmp/tmp.E0uspjiWH2"
+[2025-07-18 10:11:13] [DRY-RUN] sshd -t -f "/tmp/tmp.E0uspjiWH2"
+[2025-07-18 10:11:13] [DRY-RUN] No se aplicaron cambios a /etc/ssh/sshd_config
+[2025-07-18 10:11:13] == Remediación 5.1.8 completada ==

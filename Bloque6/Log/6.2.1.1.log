@@ -1,0 +1,5 @@
+[2025-07-18 10:12:33] Iniciando 6.2.1.1.sh – 6.2.1.1 (Ensure auditd packages are installed)
+[2025-07-18 10:12:33] [OK] Paquete auditd ya instalado
+[2025-07-18 10:12:33] Instalando paquete audispd-plugins ...
+[2025-07-18 10:12:35] [OK] Paquete audispd-plugins instalado
+[2025-07-18 10:12:35] [SUCCESS] 6.2.1.1 Aplicado correctamente

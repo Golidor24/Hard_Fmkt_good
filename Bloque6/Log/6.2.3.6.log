@@ -1,0 +1,3 @@
+[2025-07-18 10:12:39] Run 6.2.3.6.sh – 6.2.3.6
+[2025-07-18 10:12:39] Escaneando archivos privilegiados y generando reglas...
+[2025-07-18 10:12:55] Reglas guardadas en /etc/audit/rules.d/50-privileged.rules

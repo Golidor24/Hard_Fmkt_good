@@ -1,0 +1,8 @@
+[2025-07-18 10:12:32] === Remediación 5.1.8: Establecer DisableForwarding yes ===
+[2025-07-18 10:12:32] Backup creado: /etc/ssh/hardening_backups/sshd_config.20250718-101232
+[2025-07-18 10:12:32] [EXEC]   cat "/etc/ssh/sshd_config" > "/tmp/tmp.0rt6UW2GiE"
+[2025-07-18 10:12:32] [EXEC]   sshd -t -f "/tmp/tmp.0rt6UW2GiE"
+[2025-07-18 10:12:32] Archivo /etc/ssh/sshd_config actualizado.
+[2025-07-18 10:12:32] [EXEC]   systemctl reload sshd
+[2025-07-18 10:12:33] sshd recargado.
+[2025-07-18 10:12:33] == Remediación 5.1.8 completada ==

@@ -1,0 +1,4 @@
+[2025-07-18 10:12:36] Backup creado: /etc/default/grub.bak.1752844356
+[2025-07-18 10:12:36] El parámetro audit=1 ya estaba presente
+[2025-07-18 10:12:36] Ejecutando update-grub ...
+[2025-07-18 10:12:37] [SUCCESS] 6.2.1.3 Aplicado correctamente

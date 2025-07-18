@@ -1,0 +1,3 @@
+[2025-07-18 10:12:39] === Remediación 6.2.3.21_AuditRulesSync: Sincronizar reglas activas y persistidas de auditd ===
+[2025-07-18 10:12:39] ✔ Las reglas activas y en disco ya están sincronizadas. No se requiere acción.
+[2025-07-18 10:12:39] == Remediación 6.2.3.21_AuditRulesSync completada ==

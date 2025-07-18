@@ -1,0 +1,4 @@
+[2025-07-18 10:12:35] Iniciando 6.2.1.2.sh – 6.2.1.2 (Ensure auditd service is enabled and active)
+[2025-07-18 10:12:35] [OK] Paquete auditd ya instalado
+[2025-07-18 10:12:36] [OK] Servicio auditd está habilitado (enabled) y activo (active)
+[2025-07-18 10:12:36] [SUCCESS] 6.2.1.2 Aplicado correctamente

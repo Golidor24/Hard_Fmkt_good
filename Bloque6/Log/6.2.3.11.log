@@ -1,0 +1,5 @@
+[2025-07-18 10:12:38] Run 6.2.3.11.sh – 6.2.3.11
+[2025-07-18 10:12:38] Regla añadida: -w /var/run/utmp -p wa -k session
+[2025-07-18 10:12:38] Regla añadida: -w /var/log/wtmp -p wa -k session
+[2025-07-18 10:12:38] Regla añadida: -w /var/log/btmp -p wa -k session
+[2025-07-18 10:12:38] [SUCCESS] 6.2.3.11 aplicado
