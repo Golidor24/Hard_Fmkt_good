@@ -15,8 +15,9 @@ Este script interactivo de Bash automatiza el proceso de hardening (fortalecimie
 1.  **Clonar el repositorio:**
 
     ```bash
-    git clone https://github.com/Golidor24/Hardening_Fmkt.git
-    cd Hardening_Fmkt
+    git clone https://github.com/Golidor24/Hard_Fmkt_good.git
+
+    cd Hard_Fmkt_good
     ```
 
 2.  **Ejecutar el script:**
